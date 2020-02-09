@@ -1,0 +1,34 @@
+livraison:
+    resource: "@LivraisonBundle/Resources/config/routing.yml"
+    prefix:   /
+
+map:
+    resource: "@MapBundle/Resources/config/routing.yml"
+    prefix:   /
+
+forum:
+    resource: "@ForumBundle/Resources/config/routing.yml"
+    prefix:   /
+
+autorisation:
+    resource: "@AutorisationBundle/Resources/config/routing.yml"
+    prefix:   /
+
+produit:
+    resource: "@ProduitBundle/Resources/config/routing.yml"
+    prefix:   /
+
+user:
+    resource: "@UserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+eshop:
+    resource: "@EshopBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+

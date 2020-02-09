@@ -1,0 +1,3 @@
+autorisation_homepage:
+    path:     /
+    defaults: { _controller: AutorisationBundle:Default:index }

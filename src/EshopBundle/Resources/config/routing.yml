@@ -1,0 +1,6 @@
+eshop_homepage:
+    path:     /shop
+    defaults: { _controller: EshopBundle:Default:index }
+eshop_homepage2:
+    path:     /back
+    defaults: { _controller: EshopBundle:Default:back }
