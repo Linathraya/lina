@@ -203,7 +203,8 @@ public class Interfaceevent extends Form {
                 }
             }, Display.GALLERY_IMAGE);
 
-        });   nomeve.addDataChangeListener(new DataChangedListener() {
+        });   
+            nomeve.addDataChangeListener(new DataChangedListener() {
             @Override
             public void dataChanged(int type, int index) {
              if(nomeve.getText().length()>0){
@@ -217,7 +218,6 @@ public class Interfaceevent extends Form {
                         test=false;
                         Dialog.show("alerte","le nom ne contient pas des chiffres",new Command("Ok"));
                         nomeve.setText(nomeve.getText().substring(0, indexa - 1));
-                        
                         
                     } else {
                         test=false;
